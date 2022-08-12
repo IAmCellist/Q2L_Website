@@ -6,12 +6,12 @@ if (isset($_POST['submit'])) {
 	$mailFrom = $_POST['email'];
 	$message = $_POST['message'];
 	
-	$mailto = "quest2learn00@gmail.com";
+	$mailto = "estuardogonzalezjr@gmail.com";
 	$headers = "From: ".$mailFrom;
 	$txt = "You have recieved an email from ".$name.".\n\n".$message;
 	
 	mail($mailto, $subject, $txt, $headers);
-	header("Location: AFTER-SEND-PAGE?mailsend");
+	header("Location: https://sunsh1ne4ever.github.io/Q2L_Website/index.html?mailsend");
 }
 
 
