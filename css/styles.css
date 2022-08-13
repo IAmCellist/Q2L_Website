@@ -132,7 +132,7 @@ body img {
   display:         flex;
   flex-wrap: wrap;
 }
-[class*='col-'] {
+.container .row .col-md-4 > [class*='col-'] {
   display: flex;
   flex-direction: column;
 }
