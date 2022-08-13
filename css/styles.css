@@ -99,11 +99,11 @@ body img {
 	color: #FFFFFF;
 	padding-top: 0px;
 }
-.row .col-xl-2.offset-xl-6 .two {
-
-
-
+.jumbotron.jumbotron-fluid.text-center_1.col-xl-12 .row .col-xl-2.offset-xl-6 {
+	margin-top: 11px;
 }
+
+
 
 .container.blue {
 	text-align: center;
