@@ -125,6 +125,17 @@ body img {
 	text-align: center;
 }
 
+.container .row .col-md-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.container .row .col-md-4 > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
 
 
 
